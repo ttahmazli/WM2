@@ -6,4 +6,4 @@ Please make db connection configurations and create table with sql file in resou
 *Login page reloads if credentials are invalid
 *Course enrollment (not tried) and encryption (tried) parts are not included
 
-*I think 10% should not take this much time.
+*I think 10% assignment should not take this much time.
