@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+.body-bg {
+	font-family: 'lato', sans-serif;
+	background: linear-gradient(90deg, #1c0021, transparent),
+		linear-gradient(-90deg, #121216, transparent),
+		linear-gradient(-90deg, #121216, transparent),
+		linear-gradient(-90deg, #121216, transparent);
+	background-blend-mode: normal;
+}
+
+.container {
+	max-width: 1800px;
+	min-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h2 {
+	color: white;
+	font-size: 26px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.list {
+	border-radius: 3px;
+	padding: 25px 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+ul {
+	margin-top: 40px;
+}
+
+.table-header {
+	background-color: #95A5A6;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase, bold;
+	letter-spacing: 0.03em;
+}
+
+.table-row {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 120px 0px rgba(0, 0, 1, 0.1);
+}
+
+.col-2 {
+	flex-basis: 40%;
+	/* padding-top: 25px;
+	padding-bottom: 25px; */
+	/* border-right: solid 2px black; */
+}
+
+.col-3 {
+	flex-basis: 25%;
+}
+
+.btn-edit:active, .btn-edit2:active {
+	box-shadow: none;
+	top: 5px;
+}
+
+.btn-edit {
+	border-radius: 7px;
+	background-color: #facada;
+	bottom: 0px;
+	box-shadow: 0 5px 0 #bf0d49;
+	color: #bf0d49;
+	font-weight: bold;
+	padding: 1em 1.5em;
+	position: relative;
+	text-decoration: none;
+	transition: box-shadow 0.2s, bottom 0.2s, color 1s;
+}
+
+.btn-edit:hover {
+	background-color: #fff0f5;
+	color: #751046;
+	cursor: pointer;
+	bottom: 2px;
+	box-shadow: 0 7px 0 #751046;
+}
+
+.btn-danger {
+	border-radius: 7px;
+	background: linear-gradient(90deg, #eba0c4, transparent),
+		linear-gradient(-90deg, #fc44ed, transparent),
+		linear-gradient(-90deg, #fc44ed, transparent),
+		linear-gradient(-90deg, #fc44ed, transparent);
+	bottom: 0px;
+	box-shadow: 0 5px 0 #b03576;
+	color: white;
+	font-weight: bold;
+	padding: 1em 2em;
+	position: relative;
+	text-decoration: none;
+	transition: box-shadow 0.1s, bottom 0.1s, color 1s, background 1s;
+}
+
+.btn-danger:hover {
+	background: linear-gradient(90deg, #eba0c4, transparent),
+		linear-gradient(-90deg, #be92fc, transparent),
+		linear-gradient(-90deg, #be92fc, transparent),
+		linear-gradient(-90deg, #be92fc, transparent);
+	color: #b03576;
+	cursor: pointer;
+	font-weight: bolder;
+	bottom: 3px;
+	box-shadow: 0 8px 0 #b03576;
+}
+
+.btn-danger:active {
+	box-shadow: none;
+	top: 5px;
+}
+
+.btn-edit.min, .btn-edit2.min {
+	padding: 0.3em 0.5em;
+}
+
+.external {
+	margin-left: 40px;
+}
+
+input[type=text], input[type=password], input[type=number], button {
+	background-color: white;
+	width: 100%;
+	padding: 12px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-right: auto;
+}
+
+.container-2 {
+	border-radius: 20px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	width: 600px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.container-2>h2 {
+	color: black;
+}
+
+.name {
+	text-transform: capitalize;
+}
+
+span.error {
+	color: #fd5942;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}
