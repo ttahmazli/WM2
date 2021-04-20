@@ -95,9 +95,16 @@
             <artifactId>assertj-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver</artifactId>
-            <version>3.12.8</version>
+
+            <groupId>org.springframework.data</groupId>
+
+            <artifactId>spring-data-mongodb</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>mongodb</artifactId>
+            <version>3.3.4</version>
         </dependency>
     </dependencies>
 

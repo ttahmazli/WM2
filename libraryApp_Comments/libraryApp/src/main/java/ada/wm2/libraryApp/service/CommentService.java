@@ -16,7 +16,7 @@ public class CommentService {
 
     List<Comment> getCommentsByBookExtId(long id) {
 
-        Optional<List<Comment>> result = Optional.ofNullable(commentRepository.findAllByBookExtId(id));
+        Optional<List<Comment>> result = commentRepository.findAllByBookExtId(id);
 
         if(result.isEmpty()) return new ArrayList<>(1);
 
